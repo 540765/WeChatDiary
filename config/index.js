@@ -1,7 +1,7 @@
 const CONFIG = {
   // ================================基础配置 - 无需修改================================
   // 和风天气API
-  HEFENG_API_KEY: "6ab01632e2b44936b4951d8019007eab",
+  HEFENG_API_KEY: "3e24a137d4b640658b6b559b28b9534e",//"6ab01632e2b44936b4951d8019007eab",
 
   // ================================高级配置 - 需要修改================================
 
@@ -12,7 +12,7 @@ const CONFIG = {
   APP_SECRET: "602841614e447838fd60f4c560bf3b72",
 
   // 微信公众号的模板ID
-  TEMPLATE_ID: "J82gES6qXLIOhjFvF8NDts7d1EQAq-uV0bosXRGkmMA",
+  TEMPLATE_ID: "1FqY83__A7_SR3vOb0CBbiyvci-EJfcdUxz9EH5K4EQ",
 
   // 天行API的key
   TXApiKey: "187b84496d7baa1c3e0280228b55e39b",
@@ -21,15 +21,27 @@ const CONFIG = {
   user: [
     {
       // 男(女)朋友的名字（或昵称或网名）
-      userName: "艺任",
+      userName: "梓媚",
       // 用户列表的`微信号`
-      userId: "oymZC51oZl9GOczXKQaEqv67Hcck",
+      userId: "oymZC5y4kXkcEufJfGFbxKLqwV4A",
       // 星座
-      star: "摩羯座",
+      star: "射手座",
       // 生日 - 格式：08-22
       birthday: "12-11",
       // 城市 - 格式：支持省市县区
       city: "茂名市",
+    },
+    {
+      // 男(女)朋友的名字（或昵称或网名）
+      userName: "艺任",
+      // 用户列表的`微信号`
+      userId: "oymZC51oZl9GOczXKQaEqv67Hcck",
+      // 星座
+      star: "巨蟹座",
+      // 生日 - 格式：08-22
+      birthday: "07-09",
+      // 城市 - 格式：支持省市县区
+      city: "广州市",
     },
   ],
 
@@ -53,7 +65,7 @@ const CONFIG = {
     // 土味情话
     saylove: false,
     // 健康小提示
-    healthtip: true,
+    healthtip: false,
     // 毒鸡汤
     duJiTang: false,
     // 早安心语
